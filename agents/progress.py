@@ -1,7 +1,9 @@
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Tuple
+from models.pydantic_models import ProgressReport
+from tools.custom_tools import _track_progress_tool
 from datetime import datetime, timedelta
 
-from ..models.pydantic_models import Student, ProgressReport, Assessment, TutoringSession
+from models.pydantic_models import Student, ProgressReport, Assessment, TutoringSession
 
 class ProgressTrackingAgent:
     def __init__(self):

@@ -1,7 +1,7 @@
 from typing import List, Dict, Optional
 from datetime import datetime
 
-from ..models.pydantic_models import Student, LearningContent
+from models.pydantic_models import Student, LearningContent
 
 class ContentCuratorAgent:
     def __init__(self):

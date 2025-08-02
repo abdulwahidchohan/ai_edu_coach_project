@@ -4,7 +4,7 @@ import json
 import os
 import re
 
-from ..models.pydantic_models import Student
+from models.pydantic_models import Student
 
 class SkillDevelopmentAgent:
     def __init__(self, storage_path: Optional[str] = None):

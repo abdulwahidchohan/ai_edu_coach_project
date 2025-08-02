@@ -1,7 +1,7 @@
 from typing import List, Dict, Optional, Tuple
 from datetime import datetime
 
-from ..models.pydantic_models import Student, TutoringSession, LearningContent
+from models.pydantic_models import Student, TutoringSession, LearningContent
 
 class TutoringAgent:
     def __init__(self):
